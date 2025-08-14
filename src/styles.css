@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'mapbox-gl/dist/mapbox-gl.css';
+
+/* Global layout: full-viewport app with no page scrolling */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* prevent page scroll */
+  overscroll-behavior: none;
+}
+
+.app-root, .app-map {
+  display: block;
+  height: 100%;
+  min-height: 100%;
+}
+
+/* Mapbox GL control buttons spacing/appearance */
+.mapboxgl-ctrl-top-right,
+.mapboxgl-ctrl-top-left,
+.mapboxgl-ctrl-bottom-right,
+.mapboxgl-ctrl-bottom-left {
+  margin: 12px;
+}
+
+.mapboxgl-ctrl-group {
+  border-radius: 8px;
+  overflow: hidden;
+}

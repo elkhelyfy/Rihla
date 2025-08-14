@@ -1,0 +1,147 @@
+<mgl-map class="map"
+  [style]="'mapbox://styles/mapbox/streets-v12'"
+  [zoom]="6"
+  [center]="[-7.9811, 31.6295]"
+  [antialias]="true"
+  [scrollZoom]="true"
+  [movingMethod]="movingMethod"
+  [movingOptions]="movingOptions"
+  [panToOptions]="panToOptions"
+  [centerWithPanTo]="centerWithPanTo"
+  (mapCreate)="onMapCreate($event)">
+
+  <mgl-control mglGeolocate position="bottom-right"></mgl-control>
+  <mgl-control mglNavigation position="bottom-right"></mgl-control>
+  <mgl-control mglScale position="bottom-right"></mgl-control>
+
+  @let _morocco_places = morocco_places();
+  @if(_morocco_places){
+    <mgl-geojson-source
+      id="morocco_places"
+      [data]="_morocco_places"
+      [cluster]="true"
+      [clusterMaxZoom]="14"
+      [clusterRadius]="50"
+    />
+
+    <mgl-layer
+      id="clusters"
+      type="circle"
+      source="morocco_places"
+      [filter]="['has', 'point_count']"
+      [paint]="{
+        'circle-color': {
+          property: 'point_count',
+          type: 'interval',
+          stops: [
+            [0, '#10B981'],
+            [5, '#F59E0B'],
+            [10, '#EF4444']
+          ]
+        },
+        'circle-radius': {
+          property: 'point_count',
+          type: 'interval',
+          stops: [
+            [0, 20],
+            [5, 30],
+            [10, 40]
+          ]
+        },
+        'circle-stroke-width': 2,
+        'circle-stroke-color': '#fff'
+      }"
+      (layerClick)="onClusterClick($event)"
+    />
+
+    <!-- Cluster count labels -->
+    <mgl-layer
+      id="cluster-count"
+      type="symbol"
+      source="morocco_places"
+      [filter]="['has', 'point_count']"
+      [layout]="{
+        'text-field': '{point_count_abbreviated}',
+        'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+        'text-size': 14
+      }"
+      [paint]="{
+        'text-color': '#fff'
+      }"
+    />
+
+    <!-- Individual points -->
+    <mgl-layer
+      id="unclustered-point"
+      type="circle"
+      source="morocco_places"
+      [filter]="['!has', 'point_count']"
+      [paint]="{
+        'circle-color': [
+          'case',
+          ['>=', ['get', 'rating'], 4.5], '#10B981',
+          ['>=', ['get', 'rating'], 4.0], '#F59E0B',
+          '#EF4444'
+        ],
+        'circle-radius': 8,
+        'circle-stroke-width': 2,
+        'circle-stroke-color': '#fff'
+      }"
+      (layerClick)="onUnclusteredPointClick($event)"
+    />
+
+    <mgl-layer
+      id="unclustered-icons"
+      type="symbol"
+      source="morocco_places"
+      [filter]="['!has', 'point_count']"
+      [layout]="{
+        'text-field': ['get', 'categoryIcon'],
+        'text-size': 16,
+        'text-anchor': 'center',
+        'text-allow-overlap': true,
+        'text-ignore-placement': true
+      }"
+      (layerClick)="onUnclusteredPointClick($event)"
+    />
+  }
+
+  @let _selectedFeature = selectedFeature();
+  @let _popupLngLat = popupLngLat();
+  @if(_selectedFeature && _popupLngLat) {
+    <mgl-popup
+      [lngLat]="_popupLngLat"
+      [closeOnClick]="true"
+      (close)="clearPopup()"
+      className="morocco-place-popup">
+      <div class="popup-content">
+        <div class="popup-header">
+          <span class="popup-icon">{{_selectedFeature.properties?.['categoryIcon']}}</span>
+          <div>
+            <h3 class="popup-title">{{_selectedFeature.properties?.['name']}}</h3>
+            <p class="popup-region">{{_selectedFeature.properties?.['region']}}</p>
+          </div>
+          <div class="popup-rating">
+            <span class="star">⭐</span>
+            <span>{{_selectedFeature.properties?.['rating']}}</span>
+          </div>
+        </div>
+
+        <div class="popup-category">{{_selectedFeature.properties?.['category']}}</div>
+
+        <div class="popup-story">
+          {{_selectedFeature.properties?.['story']}}
+        </div>
+
+        <div class="popup-details">
+          <div class="detail-item">
+            <strong>Visit Time:</strong> {{_selectedFeature.properties?.['visitTime']}}
+          </div>
+          <div class="detail-item">
+            <strong>Best Time:</strong> {{_selectedFeature.properties?.['bestTime']}}
+          </div>
+        </div>
+      </div>
+    </mgl-popup>
+  }
+</mgl-map>

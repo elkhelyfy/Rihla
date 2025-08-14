@@ -1,0 +1,431 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hassan-ii-mosque",
+        "name": "Hassan II Mosque",
+        "region": "Casablanca",
+        "rating": 4.8,
+        "category": "Religious Architecture",
+        "categoryIcon": "🕌",
+        "story": "Rising majestically from the Atlantic shores, the Hassan II Mosque stands as one of the world's largest mosques. Its 210-meter minaret pierces the sky like a spiritual lighthouse, calling faithful and visitors alike. Built with traditional Moroccan craftsmanship and modern engineering, this architectural marvel features a retractable roof that opens to the heavens. The intricate mosaics, carved marble, and gilded cedar work tell centuries-old stories of Moroccan artisanship, while the ocean waves crash just meters away, creating a mystical harmony between human devotion and nature's power.",
+        "visitTime": "2-3 hours",
+        "bestTime": "Morning or sunset",
+        "imageUrl": "",
+        "clusterGroup": "casablanca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.6306, 33.6060]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jemaa-el-fnaa",
+        "name": "Jemaa el-Fnaa",
+        "region": "Marrakech",
+        "rating": 4.6,
+        "category": "Cultural Square",
+        "categoryIcon": "🎭",
+        "story": "As the sun sets over Marrakech, Jemaa el-Fnaa transforms into a theater of life like no other place on Earth. Snake charmers weave hypnotic melodies, storytellers captivate crowds in Arabic and Berber, and the aroma of grilled meats and fresh orange juice fills the air. This UNESCO World Heritage square has been the beating heart of Marrakech for nearly a thousand years. By day, it's a bustling marketplace; by night, it becomes an open-air restaurant and entertainment venue where the ancient traditions of Morocco come alive under a canopy of stars.",
+        "visitTime": "3-4 hours",
+        "bestTime": "Evening after sunset",
+        "imageUrl": "",
+        "clusterGroup": "marrakech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.9898, 31.6258]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "majorelle-garden",
+        "name": "Majorelle Garden",
+        "region": "Marrakech",
+        "rating": 4.5,
+        "category": "Botanical Garden",
+        "categoryIcon": "🌺",
+        "story": "Created by French painter Jacques Majorelle in the 1920s, this enchanting garden is a living work of art painted in the most vibrant shade of blue - Majorelle Blue. Exotic plants from around the world create a lush oasis in the heart of Marrakech, while cobalt blue buildings house an impressive collection of Islamic art. Once owned by Yves Saint Laurent, who found inspiration in its tranquil paths, the garden represents a perfect fusion of artistic vision and natural beauty. Every corner reveals new combinations of colors and textures that have inspired designers and artists for generations.",
+        "visitTime": "2 hours",
+        "bestTime": "Early morning",
+        "imageUrl": "",
+        "clusterGroup": "marrakech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.9847, 31.6416]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kasbah-udayas",
+        "name": "Kasbah of the Udayas",
+        "region": "Rabat",
+        "rating": 4.5,
+        "category": "Historic Fortress",
+        "categoryIcon": "🏰",
+        "story": "Perched on a cliff overlooking the Atlantic Ocean and the Bou Regreg River, the Kasbah of the Udayas is a romantic maze of narrow streets painted in brilliant blue and white. Built in the 12th century as a fortress, it now houses one of Morocco's most picturesque neighborhoods. Wander through its peaceful Andalusian gardens, where orange trees cast cooling shadows and fountains whisper ancient secrets. The views from its walls stretch endlessly over the ocean, while the medina's quiet corners hide traditional cafés where mint tea is served with stories passed down through generations.",
+        "visitTime": "2-3 hours",
+        "bestTime": "Late afternoon",
+        "imageUrl": "",
+        "clusterGroup": "rabat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.8347, 34.0242]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hassan-tower",
+        "name": "Hassan Tower",
+        "region": "Rabat",
+        "rating": 4.3,
+        "category": "Historic Monument",
+        "categoryIcon": "🗼",
+        "story": "Standing proud against the Rabat skyline, Hassan Tower represents the ambitious dreams of Sultan Yacoub al-Mansour, who envisioned the world's largest mosque in the 12th century. Though never completed, this 44-meter red sandstone minaret has become an enduring symbol of Morocco's imperial past. The surrounding ruins of hundreds of columns create a forest of stone that speaks of grand architectural ambitions. Today, it houses the Mausoleum of Mohammed V, where Morocco's beloved king rests in a tomb of white marble, watched over by the Royal Guard in their traditional red uniforms.",
+        "visitTime": "1-2 hours",
+        "bestTime": "Late afternoon",
+        "imageUrl": "",
+        "clusterGroup": "rabat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.8213, 34.0259]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fes-el-bali",
+        "name": "Fes el-Bali",
+        "region": "Fez",
+        "rating": 4.7,
+        "category": "Ancient Medina",
+        "categoryIcon": "🏛️",
+        "story": "Step into Fes el-Bali, and you'll find yourself in the world's largest car-free urban area, a living medieval city that has remained virtually unchanged for over a thousand years. The narrow alleys wind like an ancient labyrinth, leading to hidden souks where leather workers, metalworkers, and textile artisans practice crafts unchanged since the Middle Ages. The famous Chouara Tannery fills the air with the scent of natural dyes, while the sound of hammers on copper echoes from workshops tucked away in centuries-old buildings. Every corner holds a story, every doorway a mystery waiting to be discovered.",
+        "visitTime": "Full day",
+        "bestTime": "Morning to avoid crowds",
+        "imageUrl": "",
+        "clusterGroup": "fez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.0003, 34.0347]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "al-quaraouiyine",
+        "name": "Al-Qarawiyyin University",
+        "region": "Fez",
+        "rating": 4.6,
+        "category": "Historic University",
+        "categoryIcon": "📚",
+        "story": "Founded in 859 AD by Fatima al-Fihri, a visionary woman who used her inheritance to build a mosque and university, Al-Qarawiyyin holds the Guinness World Record as the oldest continuously operating university in the world. For over 1,200 years, scholars from across the Islamic world and beyond have gathered here to study theology, law, and the sciences. The library houses ancient manuscripts that chronicle centuries of human knowledge, while the prayer hall's intricate geometric patterns create a sacred geometry that has inspired mathematicians and architects. Walking through its halls, you walk in the footsteps of scholars who shaped the intellectual foundation of the medieval world.",
+        "visitTime": "1-2 hours",
+        "bestTime": "Morning",
+        "imageUrl": "",
+        "clusterGroup": "fez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.9998, 34.0331]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cape-spartel",
+        "name": "Cape Spartel",
+        "region": "Tangier",
+        "rating": 4.3,
+        "category": "Natural Landmark",
+        "categoryIcon": "🌊",
+        "story": "At Cape Spartel, Africa meets Europe in a dramatic embrace of wind and waves. This northwestern tip of Morocco stands as a sentinel where the Atlantic Ocean and Mediterranean Sea converge in an eternal dance. The lighthouse, built in 1864, has guided countless ships through these historic waters where Phoenicians, Romans, and pirates once sailed. On clear days, you can see the Spanish coast across the strait, making this one of the few places on Earth where you can see two continents at once. The wild beauty of this cape, with its rugged cliffs and endless horizons, has inspired poets and dreamers for centuries.",
+        "visitTime": "1-2 hours",
+        "bestTime": "Sunset",
+        "imageUrl": "",
+        "clusterGroup": "tangier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.9244, 35.7911]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hercules-caves",
+        "name": "Caves of Hercules",
+        "region": "Tangier",
+        "rating": 4.1,
+        "category": "Natural Cave",
+        "categoryIcon": "🕳️",
+        "story": "Legend whispers that the mighty Hercules rested in these caves after completing his twelve labors, and locals say the opening to the Atlantic was carved by the hero himself. These mysterious caves stretch deep into the cliffs near Cape Spartel, their chambers echoing with the sound of crashing waves. The main chamber opens to a window perfectly shaped like the map of Africa, framing the endless blue of the Atlantic Ocean. Archaeological evidence suggests these caves have sheltered humans for thousands of years, from Neolithic peoples to Phoenician traders, each leaving their mark in this sacred space where mythology and history intertwine.",
+        "visitTime": "1 hour",
+        "bestTime": "Afternoon",
+        "imageUrl": "",
+        "clusterGroup": "tangier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.9133, 35.7995]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "paradise-valley",
+        "name": "Paradise Valley",
+        "region": "Agadir",
+        "rating": 4.9,
+        "category": "Natural Oasis",
+        "categoryIcon": "💎",
+        "story": "Hidden in the High Atlas foothills, Paradise Valley lives up to its heavenly name. Crystal-clear pools of emerald water cascade between massive boulders and palm trees, creating natural swimming holes that seem designed by the gods themselves. Berber villages dot the surrounding mountains, their terracotta buildings blending seamlessly with the landscape. The journey here winds through argan forests where goats climb trees in search of the precious nuts, while the air carries the sweet scent of wildflowers and herbs. This oasis has been a refuge for travelers for centuries, offering respite and renewal in its pristine waters and peaceful surroundings.",
+        "visitTime": "4-6 hours",
+        "bestTime": "Morning to early afternoon",
+        "imageUrl": "",
+        "clusterGroup": "agadir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.6345, 30.5278]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "agadir-beach",
+        "name": "Agadir Beach",
+        "region": "Agadir",
+        "rating": 4.2,
+        "category": "Beach Resort",
+        "categoryIcon": "🏖️",
+        "story": "Stretching for 10 golden kilometers along the Atlantic coast, Agadir Beach represents Morocco's gateway to endless summer. The wide expanse of soft sand is kissed by consistent waves that attract surfers from around the world, while the backdrop of the Atlas Mountains creates a dramatic contrast between desert, sea, and sky. Palm-lined promenades invite evening strolls as the sun sets into the ocean, painting the sky in brilliant oranges and purples. The modern resort city that rose from the ashes of the 1960 earthquake maintains a relaxed, international atmosphere while honoring its Amazigh heritage through traditional markets and cultural festivals.",
+        "visitTime": "Half day",
+        "bestTime": "Afternoon and sunset",
+        "imageUrl": "",
+        "clusterGroup": "agadir"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.5981, 30.4202]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "volubilis",
+        "name": "Volubilis",
+        "region": "Meknes",
+        "rating": 4.6,
+        "category": "Archaeological Site",
+        "categoryIcon": "🏺",
+        "story": "The ancient Roman city of Volubilis rises from the Moroccan plains like a testament to the enduring power of human civilization. These remarkably preserved ruins tell the story of a thriving city that once controlled the region's olive oil and grain trade. Intricate mosaics still display their original colors after nearly two millennia, depicting scenes of Roman life, mythological creatures, and geometric patterns that influenced later Islamic art. Walking through the Forum, past the Basilica and the Arch of Caracalla, you can almost hear the echoes of Roman merchants haggling in the marketplace and senators debating in the shadow of the Atlas Mountains.",
+        "visitTime": "2-3 hours",
+        "bestTime": "Morning or late afternoon",
+        "imageUrl": "",
+        "clusterGroup": "meknes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.5471, 34.0735]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "meknes-medina",
+        "name": "Meknes Medina",
+        "region": "Meknes",
+        "rating": 4.4,
+        "category": "Imperial City",
+        "categoryIcon": "👑",
+        "story": "Known as the 'Versailles of Morocco,' Meknes was the ambitious creation of Sultan Moulay Ismail, who envisioned a capital that would rival the greatest cities of Europe. The massive walls and monumental gates, particularly the ornate Bab Mansour, showcase the sultan's megalomania and artistic vision. The Royal Stables once housed 12,000 horses, while underground granaries stored enough grain to feed the city for years. Today, this UNESCO World Heritage site maintains a more relaxed atmosphere than its famous cousins Fez and Marrakech, allowing visitors to explore its imperial grandeur and hidden corners at a leisurely pace, discovering the stories of a ruler who dreamed of eternal glory.",
+        "visitTime": "Half day",
+        "bestTime": "Morning",
+        "imageUrl": "",
+        "clusterGroup": "meknes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.5471, 33.8935]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "toubkal-base-camp",
+        "name": "Toubkal Base Camp",
+        "region": "High Atlas Mountains",
+        "rating": 4.8,
+        "category": "Mountain Adventure",
+        "categoryIcon": "⛰️",
+        "story": "At 4,167 meters, Jebel Toubkal stands as the roof of North Africa, challenging adventurers with its dramatic peaks and rewarding them with views that stretch from the Sahara to the Atlantic. The journey to base camp winds through traditional Berber villages where stone houses seem to grow from the mountainside itself. Ancient irrigation channels called 'seguias' bring life to terraced gardens that climb impossible slopes. The stars here shine with an intensity unknown in the lowlands, and the silence is so complete you can hear your own heartbeat. This is where the earth reaches toward heaven, and every step reveals the raw, untamed beauty of Morocco's highest peaks.",
+        "visitTime": "Full day or multi-day",
+        "bestTime": "Spring and autumn",
+        "imageUrl": "",
+        "clusterGroup": "atlas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.9167, 31.0587]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ourika-valley",
+        "name": "Ourika Valley",
+        "region": "High Atlas Mountains",
+        "rating": 4.5,
+        "category": "Mountain Valley",
+        "categoryIcon": "🏞️",
+        "story": "Just an hour from the bustling streets of Marrakech, the Ourika Valley unfolds like a green ribbon through the High Atlas Mountains. Seven waterfalls cascade down red rock faces, their mist creating rainbows in the mountain light, while Berber villages cling to impossible terraces carved into the mountainsides. The valley is famous for its weekly Monday market where mountain people trade saffron, walnuts, and aromatic herbs, and for its traditional hammams fed by hot springs that have soothed travelers for centuries. In spring, the almond trees bloom in clouds of pink and white, transforming the valley into a impressionist painting that changes with every turn of the winding mountain road.",
+        "visitTime": "Full day",
+        "bestTime": "Spring for almond blossoms",
+        "imageUrl": "",
+        "clusterGroup": "atlas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.8345, 31.2587]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tafraoute",
+        "name": "Tafraoute",
+        "region": "Anti-Atlas",
+        "rating": 4.7,
+        "category": "Oasis Town",
+        "categoryIcon": "🌴",
+        "story": "Surrounded by pink granite mountains that glow like precious stones at sunrise and sunset, Tafraoute is an oasis of tranquility in the Anti-Atlas range. This small town is famous for its almond blossoms that paint the valley in delicate pink and white each February, creating a spectacular contrast against the ancient rock formations. The landscape here is otherworldly, with boulder fields that look like giant's marbles scattered across the desert floor. Local Berber culture thrives in this isolation, with traditional mud-brick architecture, weekly souks where saffron and dates are traded, and an unhurried pace of life that invites contemplation and connection with the timeless rhythms of the desert.",
+        "visitTime": "2-3 days",
+        "bestTime": "February for almond blossoms",
+        "imageUrl": "",
+        "clusterGroup": "anti-atlas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.9754, 29.7232]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "painted-rocks",
+        "name": "Painted Rocks of Tafraoute",
+        "region": "Anti-Atlas",
+        "rating": 4.3,
+        "category": "Art Installation",
+        "categoryIcon": "🎨",
+        "story": "In 1984, Belgian artist Jean Verame transformed a corner of the Anti-Atlas into an open-air gallery by painting massive granite boulders in brilliant blues, reds, and purples. This land art installation, created with the help of local firefighters, represents one of the world's most ambitious artistic interventions in a natural landscape. The painted rocks have weathered decades of desert sun and rare rains, their colors slowly fading back toward the natural pink granite, creating an ongoing dialogue between human creativity and natural forces. Local Berber communities initially puzzled by this strange art have embraced it as a symbol of their region's unique character and creative spirit.",
+        "visitTime": "2 hours",
+        "bestTime": "Late afternoon for best colors",
+        "imageUrl": "",
+        "clusterGroup": "anti-atlas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.9654, 29.5432]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "essaouira-medina",
+        "name": "Essaouira Medina",
+        "region": "Essaouira",
+        "rating": 4.6,
+        "category": "Coastal Fortress",
+        "categoryIcon": "🏰",
+        "story": "Built by the Portuguese and perfected by Sultan Mohammed III in the 18th century, Essaouira's medina is a masterpiece of urban planning where the Atlantic winds have shaped both architecture and culture. The city's ramparts face the ocean like a fortress protecting its treasures: narrow streets filled with the scent of thuya wood workshops, galleries displaying contemporary Gnawa art, and riads where the sound of waves mingles with traditional music. Known as the 'Wind City of Africa,' Essaouira has always attracted free spirits and artists, from Jimi Hendrix to modern surfers who ride its consistent Atlantic swells. The blue and white color scheme reflects the eternal marriage between Morocco's imperial heritage and its oceanic soul.",
+        "visitTime": "Half day",
+        "bestTime": "Late afternoon",
+        "imageUrl": "",
+        "clusterGroup": "essaouira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.7719, 31.5085]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mogador-island",
+        "name": "Mogador Island",
+        "region": "Essaouira",
+        "rating": 4.2,
+        "category": "Wildlife Reserve",
+        "categoryIcon": "🐦",
+        "story": "Just a boat ride from Essaouira's harbor, Mogador Island serves as a protected sanctuary for the rare Eleonora's falcon and countless seabirds that nest in its rocky cliffs. The island's name derives from the Phoenician 'Migdol,' meaning watchtower, reflecting its ancient role as a maritime sentinel. Portuguese ruins dot the landscape, remnants of a 16th-century fortress that once controlled trade routes between Europe and Sub-Saharan Africa. Today, visitors can explore during designated seasons when birds aren't nesting, walking among ruins where ocean spray has carved artistic patterns in ancient stones, while osprey and gulls patrol the surrounding waters that shimmer with schools of sardines.",
+        "visitTime": "3-4 hours",
+        "bestTime": "Morning, seasonal access",
+        "imageUrl": "",
+        "clusterGroup": "essaouira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.8356, 31.4911]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "merzouga-dunes",
+        "name": "Erg Chebbi Dunes",
+        "region": "Merzouga",
+        "rating": 4.9,
+        "category": "Desert Experience",
+        "categoryIcon": "🐪",
+        "story": "Rising like golden waves frozen in time, the Erg Chebbi dunes near Merzouga represent the Sahara at its most magnificent. These massive sand mountains, some reaching 150 meters high, shift and dance with the desert winds, creating an ever-changing landscape that has mesmerized travelers for millennia. Berber nomads have navigated these sands for generations, following ancient caravan routes that connected Morocco to Timbuktu and beyond. At sunrise and sunset, the dunes ignite in shades of gold, orange, and deep red, while the silence is so profound that you can hear the sand sing as it moves. Sleeping under the star-filled desert sky, with the Milky Way stretching from horizon to horizon, connects visitors to the eternal rhythms of the desert.",
+        "visitTime": "2-3 days",
+        "bestTime": "October to April",
+        "imageUrl": "",
+        "clusterGroup": "sahara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.0134, 31.0801]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ait-benhaddou",
+        "name": "Aït Benhaddou",
+        "region": "Ouarzazate",
+        "rating": 4.8,
+        "category": "Historic Kasbah",
+        "categoryIcon": "🏛️",
+        "story": "Perched on a hill overlooking the ancient caravan route between the Sahara and Marrakech, Aït Benhaddou is a fortified village that embodies a thousand years of Berber architecture and ingenuity. Built entirely from earth, straw, and wood, this UNESCO World Heritage site demonstrates how human settlements can grow organically from the landscape itself. The kasbah's towering walls and intricate decorations have made it a favorite filming location for Hollywood epics, from 'Lawrence of Arabia' to 'Gladiator.' But beyond its cinematic fame, Aït Benhaddou represents the living heritage of the Berber people, where traditional building techniques are passed down through generations and where the golden light of sunset transforms mud-brick walls into pure poetry.",
+        "visitTime": "2-3 hours",
+        "bestTime": "Late afternoon for golden light",
+        "imageUrl": "",
+        "clusterGroup": "ouarzazate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.1333, 31.0472]
+      }
+    }
+  ]
+}
