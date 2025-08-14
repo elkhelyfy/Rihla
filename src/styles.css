@@ -1,4 +1,5 @@
 @import 'mapbox-gl/dist/mapbox-gl.css';
+@import "tailwindcss";
 
 /* Global layout: full-viewport app with no page scrolling */
 html, body {
